@@ -64,7 +64,7 @@ static const CGFloat NYTPhotoCaptionViewVerticalMargin = 7.0;
             CGRect selfBounds = self.layer.bounds;
             self.gradientLayer.frame = CGRectMake(
                                                   selfBounds.origin.x - safeAreaInsets.left,
-                                                  selfBounds.origin.y + safeAreaInsets.bottom,
+                                                  selfBounds.origin.y,
                                                   selfBounds.size.width + safeAreaInsets.left + safeAreaInsets.right,
                                                   selfBounds.size.height + safeAreaInsets.bottom
                                                   );
